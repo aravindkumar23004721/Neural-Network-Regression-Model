@@ -76,7 +76,8 @@ def train_model(ai_brain,X_train,y_train,criterion,optimizer,epochs=2000):
 
     ai_brain.history['loss'].append(loss.item())
     if epoch%200==0:
-      print(f'epoch {epoch} loss {loss.item():.6f}')```
+      print(f'epoch {epoch} loss {loss.item():.6f}')
+```
 ## Dataset Information
 
 ![Screenshot 2025-03-21 110227](https://github.com/user-attachments/assets/bc127b88-edce-42c6-a49d-35ab02eee25c)
